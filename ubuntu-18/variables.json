@@ -1,0 +1,16 @@
+{
+    "vcenter_server":"X.X.X.X",
+    "username":"administrator@vsphere.local",
+    "password":"P@ssw0rd",
+    "datastore":"datastore1",
+    "folder": "",
+    "host":"X.X.X.X",
+    "cluster": "Cluster1",
+    "network": "VM Network",
+    "resource_pool": "",
+    "vm_name": "ub18-dev",
+    "ssh_username": "root",
+    "ssh_password": "P@ssw0rd",
+    "iso_url": "http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04-server-amd64.iso",
+    "iso_checksum": "a7f5c7b0cdd0e9560d78f1e47660e066353bb8a79eb78d1fc3f4ea62a07e6cbc"
+}
