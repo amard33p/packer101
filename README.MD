@@ -1,4 +1,4 @@
-# Packer boxes for vSphere
+# Deploy Ubuntu using Packer on VMWare ESXi
 
 - Download packer
     ```
