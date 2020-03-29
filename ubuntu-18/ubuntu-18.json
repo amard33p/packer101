@@ -37,9 +37,7 @@
         "iso_checksum": "{{user `iso_checksum`}}",
         "iso_checksum_type": "sha256",
 
-        "floppy_files": [
-          "./preseed.cfg"
-        ],
+        "http_directory": "http",
         "boot_command": [
           "<enter><wait><f6><wait><esc><wait>",
           "<bs><bs><bs><bs><bs><bs><bs><bs><bs><bs>",
@@ -55,7 +53,7 @@
           " initrd=/install/initrd.gz",
           " priority=critical",
           " locale=en_US",
-          " file=/media/preseed.cfg",
+          " preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg",
           "<enter>"
         ]
       }
