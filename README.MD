@@ -1,4 +1,4 @@
-# Deploy Ubuntu using Packer on VMWare ESXi
+# Deploy Ubuntu using Packer on VMWare vCenter
 
 - Download packer
     ```
